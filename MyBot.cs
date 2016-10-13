@@ -63,7 +63,7 @@ namespace PoziomekBot
                 .Alias("Hestos")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendFile("kurwa_blacha_.jpg");
+                    await e.Channel.SendFile("blacha.jpg");
                 });
 
             commands.CreateCommand("say")                                // The command text `!say <text>`
